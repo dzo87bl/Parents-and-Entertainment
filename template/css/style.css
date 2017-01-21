@@ -241,6 +241,10 @@ input:-moz-placeholder {  }
 
 /* border */
 
+.border {
+	border-right: 5px dotted #d1d2d4;
+}
+
 /* padding */
 
 .padding {

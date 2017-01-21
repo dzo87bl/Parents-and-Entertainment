@@ -46,7 +46,7 @@ $(document).ready(function() {
 		scaleColor:	'#fff', // The color of the scale lines, false to disable rendering.
 		scaleLength: 0, // Length of the scale lines (reduces the radius of the chart).
 		lineCap: 'square', // Defines how the ending of the bar line looks like. Possible values are: butt, round and square.
-		lineWidth: 30, // Width of the chart line in px.
+		lineWidth: 25, // Width of the chart line in px.
 		size: 200, // Size of the pie chart in px. It will always be a square.
 		rotate: 0, // Rotation of the complete chart in degrees.
         animate: 2000, // Object with time in milliseconds and boolean for an animation of the bar growing ({ duration: 1000, enabled: true }), or false to deactivate animations.
@@ -61,7 +61,7 @@ $(document).ready(function() {
 		scaleColor:	'#fff', // The color of the scale lines, false to disable rendering.
 		scaleLength: 0, // Length of the scale lines (reduces the radius of the chart).
 		lineCap: 'square', // Defines how the ending of the bar line looks like. Possible values are: butt, round and square.
-		lineWidth: 30, // Width of the chart line in px.
+		lineWidth: 25, // Width of the chart line in px.
 		size: 200, // Size of the pie chart in px. It will always be a square.
 		rotate: 0, // Rotation of the complete chart in degrees.
         animate: 2000, // Object with time in milliseconds and boolean for an animation of the bar growing ({ duration: 1000, enabled: true }), or false to deactivate animations.
