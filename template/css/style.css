@@ -301,6 +301,13 @@ input:-moz-placeholder {  }
 	top: -8px;
 }
 
+.text-md {
+	font-size: 30px;
+    margin-left: 10px;
+    position: relative;
+    top: -7px;
+}
+
 /* loader */
 
 .loader {
