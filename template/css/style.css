@@ -1,0 +1,359 @@
+@charset "UTF-8";
+
+/* Table of Contents
+ ==================================================
+ # Imports
+ # Fonts
+ # All
+ # HTML
+ # Body
+ # Grid
+ # Header
+ # Nav
+ # Main
+ # Aside
+ # Footer
+ # Typography
+ # Elements
+ # Components
+ # Form
+ # Helpers
+ # Apps
+ # Animations
+ # Responsive
+ # Print
+ ==================================================
+ */
+
+/************************* IMPORT *************************/
+
+@import url();
+
+@import url(bootstrap.min.css);
+@import url(bootstrap-theme.min.css);
+@import url(jquery-ui-1.10.4.custom.min.css);
+
+@import url('https://fonts.googleapis.com/css?family=Anton&subset=latin-ext,vietnamese');
+@import url('https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext,vietnamese');
+
+/************************* FONT *************************/
+
+@font-face {  }
+
+/************************* ALL *************************/
+
+* {  }
+
+/************************* HTML *************************/
+
+html {
+	
+}
+
+/* selection */
+
+::selection {  }
+::-moz-selection {  }
+
+/************************* BODY *************************/
+
+body {
+	font-family: 'Muli', sans-serif;
+	font-size: 18px;
+}
+
+/************************* GRID *************************/
+
+.container-fluid {
+	
+}
+
+.container {
+	
+}
+
+/************************* HEADER *************************/
+
+#header {
+	color: #65666a;
+}
+
+.char {
+	color: #fff;
+    background: #179cd7;
+    font-size: 36px;
+    float: right;
+    font-family: serif;
+    padding: 20px 15px 10px;
+}
+
+/************************* NAV *************************/
+
+/************************* MAIN *************************/
+
+.chart-p {
+	margin-top: -130px;
+    margin-left: 225px;
+    margin-bottom: 130px;
+}
+
+/************************* ASIDE *************************/
+
+/************************* FOOTER *************************/
+
+#footer {
+	color: #fff;
+	background: #231f20;
+	padding: 20px 15px;
+}
+
+/************************* TYPOGRAPHY *************************/
+
+/* headings */
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	/*font-family: 'Anton', sans-serif;
+	text-transform: uppercase;*/
+}
+
+/* links */
+
+a {
+	display: inherit; 
+}
+
+/* list */
+
+.ul-mom {
+	list-style: none;
+}
+
+.ul-dad {
+	
+}
+
+.ul-mom,
+.ul-dad {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+.ul-mom li,
+.ul-dad li { 
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+
+.ul-mom li:before {
+    content: "• ";
+    color: #f68121;
+}
+
+.ul-dad li:before {
+    content: "• ";
+    color: #179cd7;
+}
+
+/************************* ELEMENTS *************************/
+
+/* scroll */
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 5px rgba( 0, 0, 0, 0.3 );
+	background-color: transparent;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #999;
+}
+
+/************************* COMPONENTS *************************/
+
+/* progress */
+
+.progress {
+    height: 30px;
+    border-radius: 0px;
+    background: #fff;
+    background-image: none;
+    box-shadow: none;
+}
+
+.progress-bar-warning {
+	background-color: #f48221;
+	background-image: none;
+}
+
+.progress-bar-info {
+	background-color: #179cd7;
+	background-image: none;
+}
+
+/************************* FORM *************************/
+
+/* placeholders */
+
+::-webkit-input-placeholder {  }
+::-moz-placeholder {  }
+:-ms-input-placeholder {  }
+input:-moz-placeholder {  }
+
+/************************* HELPERS *************************/
+
+/* color */
+
+.color-white {
+	color: #fff;
+}
+
+.color-orange {
+	color: #f68121;
+}
+
+.color-blue {
+	color: #179cd7;
+}
+
+.color-grey {
+	color: #d1d0cc;
+}
+
+/* background */
+
+.background-orange {
+	background: #f68121;
+	padding: 15px 0px;
+	margin-left: 0px;
+}
+
+.background-blue {
+	background: #179cd7;
+	padding: 15px 0px;
+	margin-right: 0px;
+}
+
+/* border */
+
+/* padding */
+
+.padding {
+	padding: 15px;
+}
+
+/* margin */
+
+.margin-top {
+	margin-top: 45%;
+}
+
+.margin-top-1 {
+	margin-top: 9%;
+}
+
+/* title with single lines */
+
+.title-line {
+	color: #d1d0cc;
+	overflow: hidden;
+	text-align: center;
+}
+
+.title-line:before,
+.title-line:after {
+	background-color: #d2d2d4;
+	content: "";
+	display: inline-block;
+	height: 1px;
+	position: relative;
+	vertical-align: middle;
+	width: 50%;
+}
+
+.title-line:before {
+	right: 0.5em;
+	margin-left: -50%;
+}
+
+.title-line:after {
+	left: 0.5em;
+	margin-right: -50%;
+}
+
+/* text */
+
+.text-lg {
+	font-size: 30px;
+}
+
+.text-up {
+	position: relative;
+	top: -8px;
+}
+
+/* loader */
+
+.loader {
+	background: url(../img/tpl/loader.gif) no-repeat center;
+}
+
+/************************* APPS *************************/
+
+/* chart */
+
+.chart-mom,
+.chart-dad {
+	position: relative;
+}
+
+.chart-mom span,
+.chart-dad span {
+	position: absolute;
+    top: 40%;
+    left: 15%;
+    font-size: 30px;
+}
+
+.chart-mom span {
+	
+}
+
+.chart-dad span {
+	
+}
+
+/* pace */
+
+.pace {
+	-webkit-pointer-events: none;
+	pointer-events: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+.pace-inactive {
+	display: none;
+}
+
+.pace .pace-progress {
+	background: #f68121;
+	position: fixed;
+	z-index: 2000;
+	top: 0;
+	right: 100%;
+	width: 100%;
+	height: 2px;
+}
+
+/************************* ANIMATIONS *************************/
+
+/************************* RESPONSIVE *************************/
+
+/************************* PRINT *************************/
