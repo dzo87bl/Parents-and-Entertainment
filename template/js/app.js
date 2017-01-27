@@ -70,4 +70,30 @@ $(document).ready(function() {
 		onStep: function() {}, // Callback function that is called during animations providing the current value (the context is the plugin, so you can access the DOM element via this.$el). 
     });
 	
+	/* animate progress bar */
+	
+	$("#purchase").animate({
+	    width: "20%"
+	}, 1500);
+	
+	$("#subscribe").animate({
+	    width: "6%"
+	}, 1500);
+	
+	$("#bay").animate({
+	    width: "8%"
+	}, 1500);
+	
+	$("#listen").animate({
+	    width: "66%"
+	}, 1500);
+	
+	$("#use").animate({
+	    width: "53%"
+	}, 1500);
+	
+	$("#streaming").animate({
+	    width: "48%"
+	}, 1500);
+	
 });
